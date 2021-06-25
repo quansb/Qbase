@@ -6,7 +6,5 @@ package com.quansb.network;
  * @date 2020/11/3
  */
 public interface IService {
-
     void open();
-
 }
