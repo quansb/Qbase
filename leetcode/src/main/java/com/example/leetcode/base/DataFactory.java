@@ -1,7 +1,7 @@
 package com.example.leetcode.base;
 
-import com.example.base.tree.Node;
-import com.example.data.Offer.TreeNode;
+import com.example.leetcode.base.tree.Node;
+import com.example.leetcode.test.Tree.TreeNode;
 
 import java.util.List;
 import java.util.Random;

@@ -4,7 +4,7 @@ import android.os.Build;
 
 import androidx.annotation.RequiresApi;
 
-import com.example.data.Offer.TreeNode;
+import com.example.leetcode.test.Tree.TreeNode;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -25,7 +25,6 @@ public class Leetcode {
     public static void main(String[] args) {
         Leetcode leetcode = new Leetcode();
     }
-
 
     /**
      * 22. 括号生成

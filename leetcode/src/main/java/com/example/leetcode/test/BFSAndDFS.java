@@ -1,7 +1,5 @@
 package com.example.leetcode.test;
 
-import com.example.base.tree.Node;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -121,14 +119,14 @@ public class BFSAndDFS {
      * 输入：root = [1,null,3,2,4,null,5,6]
      * 输出：[[1],[3,2,4],[5,6]]
      */
-    public static List<List<Integer>> levelOrder(Node root) {
-        if (root == null) {
-            return new ArrayList<>();
-        }
-        List<List<Integer>> res = new ArrayList<>();
-        //  test.DFS.dfs(res, root, 0);
-        return res;
-    }
+//    public static List<List<Integer>> levelOrder(Node root) {
+//        if (root == null) {
+//            return new ArrayList<>();
+//        }
+//        List<List<Integer>> res = new ArrayList<>();
+//        //  test.DFS.dfs(res, root, 0);
+//        return res;
+//    }
 
 
     /**

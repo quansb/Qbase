@@ -1,7 +1,7 @@
 package com.example.leetcode.data;
 
-import com.example.base.DataFactory;
-import com.example.base.TreeDataFactory;
+import com.example.leetcode.base.DataFactory;
+import com.example.leetcode.base.TreeDataFactory;
 
 /**
  * @author quanshibao

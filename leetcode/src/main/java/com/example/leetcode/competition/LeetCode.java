@@ -10,7 +10,7 @@ import java.util.Map;
  * @description
  * @date 2021/6/25
  */
-public class Leetcode {
+public class LeetCode {
 
     /**
      * 1711. 大餐计数
@@ -81,12 +81,7 @@ public class Leetcode {
      * 1 <= truckSize <= 106
      */
     public int maximumUnits(int[][] boxTypes, int truckSize) {
-        Arrays.sort(boxTypes, new Comparator<int[]>() {
-            @Override
-            public int compare(int[] o1, int[] o2) {
-                return o2[1] - o1[1];
-            }
-        });
+        Arrays.sort(boxTypes, (o1, o2) -> o2[1] - o1[1]);
         int cur = truckSize;
         int sum = 0;
         for (int[] boxType : boxTypes) {

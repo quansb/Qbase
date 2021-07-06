@@ -1,7 +1,8 @@
 package com.example.leetcode.data;
 
-import com.example.base.DataFactory;
-import com.example.base.tree.Node;
+import com.example.leetcode.base.DataFactory;
+import com.example.leetcode.base.tree.Node;
+import com.example.leetcode.test.Tree.TreeNode;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -273,17 +274,6 @@ public class Offer {
             res[i] = head.val;
         }
         return i + 1;
-    }
-
-
-    public static class TreeNode {
-        public int val;
-        public TreeNode left;
-        public TreeNode right;
-
-        public TreeNode(int x) {
-            val = x;
-        }
     }
 
     /**
@@ -2796,8 +2786,6 @@ public class Offer {
 //    public double[] dicesProbability(int n) {
 //
 //    }
-
-
     private void fun1(int n) {
         if (n < 1) {
             return;
