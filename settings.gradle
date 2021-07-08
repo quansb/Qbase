@@ -3,3 +3,4 @@ include ':network'
 include ':base'
 include ':app'
 rootProject.name = "Qbase"
+include ':design_patterns'
